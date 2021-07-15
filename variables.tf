@@ -1,7 +1,7 @@
 variable "resourceGroup" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "location" {
@@ -10,4 +10,23 @@ variable "location" {
 
 variable "tags" {
   type = map(any)
+}
+
+variable "vnetname" {
+
+    type = string
+  
+}
+
+variable "nsgName" {
+    type = string
+   
+}
+
+variable "subnet1Name" {
+    type = string
+}
+
+variable "subnet2Name" {
+    type = string
 }

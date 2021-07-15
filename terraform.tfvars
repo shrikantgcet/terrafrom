@@ -1,5 +1,10 @@
-resourceGroup = "myTerraformResourceGroup"
-location = "East US"
+resourceGroup = "TerraformGroup"
+location      = "East US"
 tags = {
-    "environment" = "Test"
-    }
+  "environment" = "Test"
+}
+
+vnetname = "myTerraformVnet"
+subnet1Name = "mySubnet3"
+subnet2Name = "mySubnet2"
+nsgName = "myNsgName"
